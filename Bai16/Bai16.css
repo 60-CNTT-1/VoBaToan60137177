@@ -1,0 +1,51 @@
+#container{
+	width:1000px;
+	height:600px;
+	border:2px black solid;
+}
+#banner{
+	border-bottom:1px black solid;
+	background:url("digital.jfif");
+	color:#00FFFF;
+	font-style: italic;
+	height:100px;
+}
+#menu{
+	float:left;
+	width:200px;
+	height:500px;
+	border:none;
+	border-right:1px black solid;
+	background-color:#696969;
+}
+#content{
+	width:799px;
+	height:499px;
+	border:none;
+}
+h2{
+	text-align:center;
+	margin: 0;
+	font-size:30px;
+}
+a{
+	color:#800080;
+}
+iframe{
+	margin:0;
+	padding:0;
+}
+#stock{
+	width:200px;
+	float:left;
+	margin:2px;
+}
+#work
+{
+	width:200px;
+	float:right;
+	margin:2px;
+}
+.font1{
+	font-size:25px;
+}

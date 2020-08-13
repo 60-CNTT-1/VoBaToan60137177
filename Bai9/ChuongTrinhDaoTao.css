@@ -1,0 +1,17 @@
+div{
+    background-image:url("background.jpg");
+    border-style:double;
+    width:500px;
+    padding:10px;
+}
+h3{
+    color:#FF0000;
+}
+#home{
+    text-align:right;
+}
+
+hr{
+    border:1px solid #FFFFFF;
+    width:100%;
+}

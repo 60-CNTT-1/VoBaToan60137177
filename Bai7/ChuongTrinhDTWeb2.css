@@ -1,0 +1,15 @@
+div{
+    background-color:#FFFFFF;
+    border:solid #0d1137;
+    width:500px;
+    padding:10px;
+}
+h3{
+    text-align:center;
+    color:#FF0000;
+	font-family:Arial;
+}
+ol{
+	font-family:Arial;
+    color:#0000FF;
+}

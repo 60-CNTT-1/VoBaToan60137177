@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Bài tập 14</title>
+    <meta charset="UTF-8"/>
+<!---->
+    <style>
+        #form{
+            width:700px;
+            height:auto;
+            border:5px groove #C0C0C0;
+            overflow-y:scroll;
+            overflow-x:hidden;
+            box-sizing:border-box;
+            padding:5px;
+        }
+        img{
+            width:30%;
+            height:auto;
+        }
+        .done{
+            width:15px;
+            height:15px;
+        }
+        table{
+            width:100%;
+            border-collapse:separate;
+        }
+        table tr td {
+            border:5px solid #C0C0C0; 
+			background-color:#808080;
+        }
+        textarea{
+            width:70%;
+        }
+        #onel{
+            width:60%;
+        }
+        #oner{
+            width:20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <form>
+            Your age: <input type="text"/><br/>
+            Your gender: <input type="radio" name="sex" value="Maile"/> Male
+                         <input type="radio" name="sex" value="Female"/> Female<br/>
+            Check all names of the people listed whom you have heard about:<br/>
+            <input type="checkbox"/> Marc Andreessen <input type="checkbox"/> Lisa Schmeiser
+            <input type="checkbox"/> Al Gore <input type="checkbox"/> Boutros Boutros-Ghali<br/>
+            What is your favorite Web browse? <select><option>Netscape</option></select><br/>
+            Which of these ice cream flavors have you tried?
+            <select multiple="multiple">
+                <option value="1">Vanilla</option>
+                <option value="2">Chocolate</option>
+                <option value="3">Cherry Garcia</option>
+            </select><br/>
+            Guess the secret password: <input type="password"/><br/>
+            Do you have an informal nickname? <input type="radio" name="nickname"> No
+                                              <input type="radio" name="nickname"> Yes,
+                                              it is <input type="text"/><br/>
+            Enter your personal moto:<br/>
+            <textarea></textarea><br/>
+            When you are done with the above responses, please submit this information by
+            clicking on your current geographic location on this map:<br/>
+            <img src="map.jpg" alt="Map of world"><br/>
+            <input type="submit" value="Send this survey"/> <input type="submit" value="Cancel this survey"/><br/>
+        </form>
+        <div>
+            <table>
+                <tr>
+                    <td id="onel"><button><img src="done.jpg" alt="done" class="done">Done</button></td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td id="oner"><img src="computer.png" alt="My computer" class="done">My computer</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    font-family:Arial;
+}
+div{
+    border-style:solid;
+    width:650px;
+    padding:10px;
+}
+h3{
+    text-align:center;
+    color:#f00000
+}
+ul{
+    color:#002fff
+}
+p{
+    color:#800080
+}

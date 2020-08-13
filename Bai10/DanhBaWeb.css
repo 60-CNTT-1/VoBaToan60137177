@@ -1,0 +1,20 @@
+div{
+	background-image:url('background.jpg');
+	width:700px;
+	height:400px;
+	border:#000000 solid 1px;
+}
+
+h3{
+    text-align:center;
+    color:#000080;
+}
+
+.image{
+	width:200px;
+	height:100px;
+}
+
+p{
+	margin-bottom:1px;
+}

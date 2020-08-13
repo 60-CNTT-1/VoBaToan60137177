@@ -1,0 +1,29 @@
+h1 {
+    text-align:center;
+    color:#006600;
+}
+h2 {
+    color:#0000FF;
+}
+#m {
+    text-align:center;
+    color:#FF3399;
+    background:#FECFFD;
+}
+div {
+    text-align:center;
+    background:#FFFFCC;
+}
+hr {
+    width:20%;
+}
+/*-----*/
+#a1 {
+    color:#0000FF;
+}
+#a2{
+    color:#FF3399;
+}
+#a3{
+    color:#006600;
+}

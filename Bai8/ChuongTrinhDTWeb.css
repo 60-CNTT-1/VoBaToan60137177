@@ -1,0 +1,15 @@
+div{
+    background-color:#C0C0C0;
+	border-left:#000000 solid 2px;
+    width:500px;
+    padding:10px;
+}
+h3{
+	text-align:right;
+    color:#000000;
+}
+hr{
+    text-align:center;
+	border:1.5px solid #000000;
+    width:30%;
+}
